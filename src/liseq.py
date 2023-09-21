@@ -43,7 +43,7 @@ def liseq(x: Sequence[Any]) -> list[int]:
                 continue
             else:
                 break
-    """Finding longest increasing substring"""
+    """Finding longest increasing subsequence"""
     lengths = []
     for i in increasing_substrings:
         lengths.append(i[1] - i[0])
